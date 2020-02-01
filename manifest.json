@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Miko Responder",
+    "description": "This extension will help sean.davey@tieto.com to respond to Miko",
+    "version": "1.0",
+    "author": "Sean Davey, sean.davey@tieto.com",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "icons": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}
